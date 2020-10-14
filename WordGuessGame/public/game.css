@@ -1,0 +1,65 @@
+body{
+	background-color: #f0e7ea;
+	overflow: auto;
+	font-family: Neue Haas Unica,PingFang SC,\\5FAE\8F6F\96C5\9ED1,Microsoft Yahei,\\5B8B\4F53,Helvetica,Arial,simsun;
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	color: #85314f;
+}
+
+
+#word-list-button{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 550px;
+  cursor: pointer;
+}
+
+#word-list-button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.guess-info{
+	color: red;
+}	
+
+#enter-guess-word{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.guess-button{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+	margin: 13px 180px;
+ 	padding: 9px 40px;
+  font-size: 15px;
+  font-weight: bold;
+ 	display: block;
+  cursor: pointer;
+}
+
+.guess-button:hover {
+  background-color: #008CBA;
+  color: white;
+}

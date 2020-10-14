@@ -1,0 +1,53 @@
+body{
+  background-color: #f0e7ea;
+  overflow: auto;
+  font-family: Neue Haas Unica,PingFang SC,\\5FAE\8F6F\96C5\9ED1,Microsoft Yahei,\\5B8B\4F53,Helvetica,Arial,simsun;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #85314f;
+}
+
+
+#warn-modal{
+  margin: auto;
+  margin-top: 150px;
+  width: 40%; 
+  border: 3px solid red;
+  padding: 25px;
+  text-align: center;
+}
+
+
+
+h2{
+  text-align: center;
+  font-size: 22px;
+  color: red;
+  margin-left: 29px;
+  margin-right: 50px;
+}
+
+#warning-text{
+  font-size: 22px;
+}
+
+
+#go-back {
+  background-color: #4CAF50;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+#go-back:hover {
+  background-color: #008CBA;
+}
+
