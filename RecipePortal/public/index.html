@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Recipe Application</title>
+    <link rel="stylesheet" href="recipe.css"/>
+  </head>
+  <body>
+
+    <div id="recipe-app">
+        <!--  Recipe Login Page -->
+        <div class="login-panel" >
+          <div class="login-page-header">
+            <h2 class="login-page-header-title">Login To Recipe Application</h2>
+            <button class="back-to-homepage-2">Return To Home Page</button>
+          </div>
+
+          <div class="login-section">      
+            <label id="username-label">Enter User Name </label>    
+            <input type="text" name="username" id="enter-username" placeholder="Username" required>    
+            <button type="button" id="login-button">Login</button>           
+            <div class="login-error"></div>
+          </div>
+        </div>      
+        <!-- Recipe Home Page -->
+        <div class="recipe-home-page">
+            <div class="homepage-header">
+            <h2 class="homepage-header-title">Recipe Home Page</h2>
+            <button type="button" id="homepage-login-button">Login</button>
+          </div>
+
+          <div class="recipe-details">
+            <ul class="recipe-list">
+            </ul>
+            <button class="add-recipe">Add Recipe</button >
+            <button class="logout">Logout</button>
+          </div>
+        </div>    
+       <!-- Create Recipe Page -->
+        <div class="add-new-recipe-details">
+          <form action="/recipe" name="recipe-content">
+            <div class="create-recipe-header">
+              <h2 class="create-recipe-title">Create New Recipe</h2>
+              <button class="back-to-homepage">Return To Home Page</button>
+            </div>
+            
+            <div class="create-recipe-content">
+
+              <div class="recipe-title">
+                <label>Title:</label>
+                <input type="text" class="recipe-input">
+              </div>
+
+              <div class="ingredients">
+                <label>Ingredients:</label>
+                <textarea class="ingredients-text"></textarea>
+              </div>
+
+              <div class="recipe-steps">
+                <label>Instructions:</label>
+                <textarea class="recipe-steps-text"></textarea>
+              </div>
+
+              <button class="enter-recipe-button">Enter Recipe</button>
+              <div class="recipe-empty-error"></div>
+            </div>  
+          </form>
+        </div>    
+        <!--  Recipe Details Page -->
+        <div class="recipe-display-section">
+          
+          <div class="recipe-details-header">
+            <h2 class="recipe-title">Recipe Details</h2>
+            <button class="back-to-homepage-1">Return To Home Page</button>
+          </div>
+          
+          <div class="recipe-display-content">
+            
+             <div class="recipe-author-display">
+              <label>Author:</label>
+              <span class="recipe-author-text"></span>
+             </div>
+
+ 
+            <div class="recipe-title">
+              <label class="recipe-title-label">Title:</label>
+              <span class="recipe-title-text"></span>
+            </div>
+
+            <div class="ingredients-display">
+              <label>Ingredient:</label>
+              <span class="ingredients-display-text"></span>
+            </div>
+
+            <div class="recipe-steps-display">
+              <label>Instructions:</label>
+              <span class="recipe-steps-display-text"></span>
+            </div>
+          </div>  
+        </div>
+        <div class="generic-error"></div>
+      </div>
+
+    <script type="module" src="recipe.js"></script>
+  </body>
+</html>
