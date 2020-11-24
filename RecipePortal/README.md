@@ -53,6 +53,6 @@ The RecipePortal app is a single-page application which displays the recipe step
 
 * Added REST services to fulfill the needs of the application
 * Any services calls that expect the user be logged in should enforce that requirement
-* Picked the services data, methods, URLs, and status codes to match the requirements of RESTful services as described in class
+* Picked the services data, methods, URLs, and status codes to match the requirements of RESTful services
 * Any request/response bodies are in JSON
 * Store the author (username) of a new recipe, along with any created id for that recipe
