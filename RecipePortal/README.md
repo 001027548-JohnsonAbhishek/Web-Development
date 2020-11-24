@@ -1,6 +1,7 @@
 # About
 
-The RecipePortal app is a single-page application which displays the recipe steps to make a food recipe.  
+The RecipePortal app is a single-page application which displays the recipe steps to make a food recipe.
+Please view the ProjectWorking.pdf file to see the working of the application.
 
 ## Functionality
 * There is an option to login, but users are not required to login to view
