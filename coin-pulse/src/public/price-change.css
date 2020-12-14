@@ -1,0 +1,56 @@
+.price-change-heading{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 42.5rem;
+    margin-right: 24.5rem;
+    color: #fda43d;
+  }
+  
+  
+  .time-heading-2,.time-heading-3,.time-heading-4,.time-heading-5,.time-heading-6{
+    background: white;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 46rem;
+    color: #ec04a3;
+    font-weight: bold;
+    text-align: center;
+    outline: 5px solid grey;
+  }
+  .price-percent-value-2,.price-percent-value-3,.price-percent-value-4,.price-percent-value-5,.price-percent-value-6{
+    width: 100px;
+    height: 37px;
+    position: absolute;
+    background: white;
+    padding-bottom: 3px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 48.5rem;
+    padding-top: 1px;
+    color: #7f45f0;
+    font-weight: bold;
+    outline: 5px solid rgb(163, 156, 156);
+  }
+  
+  
+  .time-heading-2,.price-percent-value-2{
+    margin-right: 42.02rem;
+  }
+  .time-heading-3,.price-percent-value-3{
+    margin-right: 35.5rem;
+  }
+  .time-heading-4,.price-percent-value-4{
+    margin-right: 29.5rem;
+  }
+  .time-heading-5,.price-percent-value-5{
+    margin-right: 23.2rem;
+  }
+  
+  .time-heading-6,.price-percent-value-6{
+    margin-right: 17.4rem;
+  }

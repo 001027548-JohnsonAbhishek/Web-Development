@@ -1,0 +1,17 @@
+.chart{
+    flex-basis: 30%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 95%;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top: 12rem;
+    margin-left: 25rem;
+    margin-right: 2%;
+    margin-bottom: 50rem;
+    max-width: 50rem;
+    height: 26rem;
+    font-size: 14px;
+  }

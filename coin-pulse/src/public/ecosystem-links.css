@@ -1,0 +1,22 @@
+.coin-ecosystem-links{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 373px;
+    height: fit-content;
+    background: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 25px;
+    color: #7f45f0;
+}
+
+.links{
+    display: block;
+    cursor: pointer;
+    color: #2114cc;
+    margin-bottom: 0.2rem;
+}

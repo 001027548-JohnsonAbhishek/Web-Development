@@ -1,0 +1,49 @@
+.login-section{
+    width: 310px;
+    height: auto;
+    padding: 40px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 520px;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  .login-header{
+    color: #ff6200;
+  }
+  
+  .user-label{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fcba03;
+  }
+  
+  .login-input{
+    display: block;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    background-color: transparent;
+  }
+  
+  .login-btn{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    margin-top: 1rem;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 6rem;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover{
+  
+      background-color: #008CBA;
+      color: white;
+  }

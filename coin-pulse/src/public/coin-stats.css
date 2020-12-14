@@ -1,0 +1,75 @@
+.go-back{
+    margin-top: 2rem;
+    margin-left: 36rem;
+    background-color: #008CBA;
+    margin-top: 10px;
+    padding: 7px 35px;
+    font-size: 20px;
+    max-width: 6%;
+    color: #fcc603;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+.go-back:hover {
+    background-color: #f03329;
+    color: white;
+  }
+  
+
+.container{
+    max-width: 1300px;
+     margin: auto;
+     padding: 10px 30px;
+     box-sizing: border-box;
+     color: black;
+ }
+ 
+  
+span{
+    display: block; 
+  }
+
+.coin-stats{
+    flex-basis: 30%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 45%;
+    margin-top: 3rem;
+    margin-right: 2%;
+    max-width: 330px;
+    min-width: 330px;
+    font-size: 14px;
+  }
+  
+.coin-stats-header{
+    color: #7f45f0;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+  }
+
+.coin-stat-element{
+    border-top: red;
+    padding: 0.3rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+    color: black;
+    border-top: ridge;
+    border-bottom: ridge;
+}
+  
+#current-price,#price-change,#all-time-high,#market-cap,#volume,#supply{
+    display: inline;
+    color: red;
+  }
+  
+  #price-change,#volume{
+    color: darkgreen;
+  }
+  
+  #all-time-high,#supply{
+    color: blue;
+  }
+  
